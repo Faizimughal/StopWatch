@@ -19,6 +19,7 @@ body {
   margin-bottom: 20px;
   font-size: 25px;
   font-family: sans-serif;
+  color: rgb(105, 15, 15);
 }
 .heading button {
   margin: 0px;
@@ -51,13 +52,14 @@ body {
   width: 450px;
   height: 100px;
   border-radius: 5px;
-  background-color: skyblue;
+  background-color: rgb(105, 15, 15);
   box-shadow: 0px 0px 20px 10px grey;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 50px;
   font-weight: bold;
+  color: goldenrod;
 }
 .timer > span {
   margin: 0 15px;
@@ -67,13 +69,16 @@ body {
   width: 100px;
   font-size: 20px;
   border-radius: 5px;
-  background-color: rgb(238, 236, 236);
-  color: rgb(55, 187, 240);
+  background-color: rgb(105, 15, 15);
+  color: goldenrod;
   border: none;
   outline: none;
+  font-weight: bold;
+  transition: all 0.5s ease-in-out;
   &:hover {
-    background-color: rgb(55, 187, 240);
-    color: black;
+    background-color: goldenrod;
+    color: rgb(105, 15, 15);
+    border: 1px solid rgb(105, 15, 15);
   }
 }
 @media (max-width: 700px) {
